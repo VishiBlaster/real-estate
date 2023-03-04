@@ -1,9 +1,60 @@
-#search_img{
-    margin: 0px;
-    padding: 0%;
-    width: 100%;
-    max-height: 100px;
+/*.navbar{
+    background-color: black;
+    border-radius: 30px;
+    opacity: 0.3;
+  }
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
 }
-.nav{
+.navbar ul{
+    overflow: auto;
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.home_search_image{
+    opacity: 100%;
+}*/
+/* Define the main Navigation block */
+.navbar {
+    display: block;
+    height: 0px;
+    line-height: 50px;
+    background-color: #ffffff;
+}
+/* Remove bullets, margin and padding */
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
     position: absolute;
+}
+.navbar li {
+    float: left;
+    /* Or you can use display: inline; */
+}
+/* Define the block styling for the links */
+.navbar li a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+/* This is optional, however if you want to display the active link differently apply a background to it */
+.navbar li a.active {
+    background-color: #3786E1;
+}
+.home_search_image{
+    display: inline-block;
+    align-items: center;
+    min-width: 100%;
+    margin: 0%;
+    padding: 0%;
 }
